@@ -1,0 +1,94 @@
+body{
+  background-color:whitesmoke;
+}
+main{
+  background-color: white;
+  width:75%;
+  margin:auto;
+  padding-bottom: 30px;
+  padding-top: 60px;
+}
+.navbar{
+  background-color:gainsboro;
+  
+}
+.slide01{
+  background-image: url(images/slide01.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.slide02{
+  background-image: url(images/slide02.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  
+}
+.slide03{
+  background-image: url(images/slide03.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.carousel-caption h1{
+  font-size: 50px;
+}
+.carousel-caption h2{
+  font-size: 30px;
+}
+.carousel.fade {
+     opacity: 1;
+}
+.carousel.fade .item{
+    transition: opacity ease-out 1.5s;
+    left: 0;
+    opacity: 0; /* hide all slides */
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+ .carousel.fade .item:first-child {
+    top: auto;
+    opacity: 1; /* show first slide */
+    position: relative;
+}
+.carousel.fade .item.active {
+    opacity: 1;
+}
+.jumbotron{
+  background-image: url(images/Bridge_Fullscreen.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+.jumbotron h1{
+ font-size: 30px;
+}
+
+p{
+  width:90%;
+  margin:auto;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+.black{
+  color:#383838;
+}
+.logo{
+width:70%;
+}
+li:hover{
+  background-color:white;
+  
+}
+
